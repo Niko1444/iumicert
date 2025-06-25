@@ -1,0 +1,5544 @@
+{
+  "export_metadata": {
+    "institution": "International University Vietnam",
+    "semester": "Fall_2024",
+    "export_date": "2025-06-25T03:38:45.581Z",
+    "export_type": "COURSE_COMPLETIONS",
+    "academic_year": "2024-2025",
+    "total_students": 20,
+    "total_courses": 10,
+    "export_id": "ad856e0d176d3081",
+    "lms_version": "2.1.4",
+    "data_format_version": "1.0"
+  },
+  "course_catalog": {
+    "CS101": {
+      "name": "Introduction to Programming",
+      "credits": 3,
+      "instructor": "Prof. Smith"
+    },
+    "CS102": {
+      "name": "Computer Science Fundamentals",
+      "credits": 3,
+      "instructor": "Prof. Johnson"
+    },
+    "MATH201": {
+      "name": "Calculus II",
+      "credits": 4,
+      "instructor": "Prof. Davis"
+    },
+    "MATH202": {
+      "name": "Discrete Mathematics",
+      "credits": 3,
+      "instructor": "Prof. Wilson"
+    },
+    "ENG102": {
+      "name": "Technical Writing",
+      "credits": 2,
+      "instructor": "Prof. Brown"
+    },
+    "PHYS201": {
+      "name": "Physics II",
+      "credits": 4,
+      "instructor": "Prof. Taylor"
+    },
+    "CS201": {
+      "name": "Data Structures",
+      "credits": 3,
+      "instructor": "Prof. Anderson"
+    },
+    "CS202": {
+      "name": "Object-Oriented Programming",
+      "credits": 3,
+      "instructor": "Prof. Miller"
+    },
+    "STAT301": {
+      "name": "Statistics",
+      "credits": 3,
+      "instructor": "Prof. Garcia"
+    },
+    "DB301": {
+      "name": "Database Systems",
+      "credits": 3,
+      "instructor": "Prof. Lee"
+    }
+  },
+  "student_records": [
+    {
+      "student_id": "STU001",
+      "student_name": "Student STU001",
+      "email": "stu001@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU001",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-10-21",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 85,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-11-06"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-12-04"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-11-10"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "de7e0868110fdf6d"
+        },
+        {
+          "student_id": "STU001",
+          "course_code": "CS201",
+          "course_name": "Data Structures",
+          "instructor": "Prof. Anderson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-10-24",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 61,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-10-18"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-11-16"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-28"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-10-27"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-29"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            }
+          ],
+          "course_id": "CS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "e70fd484e7dd2b0c"
+        },
+        {
+          "student_id": "STU001",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "C",
+          "completion_date": "2024-10-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 61,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-11-28"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-09-22"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "be7dca77521547b0"
+        },
+        {
+          "student_id": "STU001",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-11-08",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 68,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-11-11"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-11-22"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "1a11790d98944438"
+        },
+        {
+          "student_id": "STU001",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-11-15",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 69,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-09-04"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-11-04"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "91845cbcfec23c72"
+        },
+        {
+          "student_id": "STU001",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "B-",
+          "completion_date": "2024-11-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 72,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-09-12"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-09-17"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-11-27"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "518626cf3044cd5b"
+        }
+      ],
+      "lms_student_id": "c4aba5ab02a6",
+      "last_login": "2024-10-21",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU002",
+      "student_name": "Student STU002",
+      "email": "stu002@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 3,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 16,
+      "course_completions": [
+        {
+          "student_id": "STU002",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-10-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 80,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-10-02"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "09baccf7c06a5fa4"
+        },
+        {
+          "student_id": "STU002",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-10-27",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 81,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-12"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-11-14"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-12-09"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "034e424be7e69aa1"
+        },
+        {
+          "student_id": "STU002",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-11-28",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 96,
+          "attendance_rate": 93,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-11-23"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-10-30"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-11-10"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "f58f14585c1845f8"
+        },
+        {
+          "student_id": "STU002",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-12-01",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 94,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-09-27"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-10-22"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "4b5b66b16f7f55c1"
+        },
+        {
+          "student_id": "STU002",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B+",
+          "completion_date": "2024-12-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 85,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-11-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-10-20"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-10-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-11-10"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-10-08"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "0a241c364cd60bca"
+        }
+      ],
+      "lms_student_id": "fd04e8e36a73",
+      "last_login": "2024-09-10",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU003",
+      "student_name": "Student STU003",
+      "email": "stu003@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 4,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 14,
+      "course_completions": [
+        {
+          "student_id": "STU003",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-09-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 68,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-11-11"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-24"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-12-03"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-12-02"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "7b1ba0bbbd135a9b"
+        },
+        {
+          "student_id": "STU003",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "A-",
+          "completion_date": "2024-09-09",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 74,
+          "attendance_rate": 94,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-11-13"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-12-04"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "6047145f53841a62"
+        },
+        {
+          "student_id": "STU003",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-09-11",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 68,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-11-11"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-11-10"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-10-24"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "5f764c2dfabb1f04"
+        },
+        {
+          "student_id": "STU003",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-30",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 97,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-11-17"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-11-29"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "71492bb82a5a3374"
+        },
+        {
+          "student_id": "STU003",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-12-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 83,
+          "attendance_rate": 94,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-10-09"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-11-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-11-25"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-09-20"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "b7273d020ea225f5"
+        }
+      ],
+      "lms_student_id": "6f759ca91408",
+      "last_login": "2024-11-03",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU004",
+      "student_name": "Student STU004",
+      "email": "stu004@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 2,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 18,
+      "course_completions": [
+        {
+          "student_id": "STU004",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-09-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 94,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-10-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-11-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-09-17"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "5e2b6bb6c0bb0f79"
+        },
+        {
+          "student_id": "STU004",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-10-18",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 60,
+          "attendance_rate": 81,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-09-18"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "1fea67355c7f2738"
+        },
+        {
+          "student_id": "STU004",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "C+",
+          "completion_date": "2024-11-14",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 86,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-12-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-09-24"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "2a75836c8fe3af4c"
+        },
+        {
+          "student_id": "STU004",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "C",
+          "completion_date": "2024-12-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 63,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-11-14"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "2dff687c684e56ba"
+        },
+        {
+          "student_id": "STU004",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-12-08",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 68,
+          "attendance_rate": 89,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-09-27"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-09-03"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "6fc097145d60406b"
+        },
+        {
+          "student_id": "STU004",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "A",
+          "completion_date": "2024-12-11",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 73,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-11-29"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-12-11"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "bbb4aa98109585f8"
+        }
+      ],
+      "lms_student_id": "65700bcd2fc2",
+      "last_login": "2024-12-11",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU005",
+      "student_name": "Student STU005",
+      "email": "stu005@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 16,
+      "course_completions": [
+        {
+          "student_id": "STU005",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-11",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 89,
+          "attendance_rate": 94,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-11-04"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-13"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "1b9087eac0cc7192"
+        },
+        {
+          "student_id": "STU005",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "C",
+          "completion_date": "2024-09-20",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 80,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-12-11"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-10-12"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-10-13"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "0535d2f7c8723d10"
+        },
+        {
+          "student_id": "STU005",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-10-18",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 79,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-12-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-11-27"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-11-21"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "160b4ee52e7e3d36"
+        },
+        {
+          "student_id": "STU005",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "C",
+          "completion_date": "2024-11-01",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 66,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-09-28"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-17"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-11-29"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-19"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "80d8096e63ab2480"
+        },
+        {
+          "student_id": "STU005",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "B+",
+          "completion_date": "2024-12-03",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 65,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-06"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-09-17"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-10-28"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "5ed94e654c673440"
+        }
+      ],
+      "lms_student_id": "9810a6e4bc34",
+      "last_login": "2024-09-26",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU006",
+      "student_name": "Student STU006",
+      "email": "stu006@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 2,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 15,
+      "course_completions": [
+        {
+          "student_id": "STU006",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-10-19",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 83,
+          "attendance_rate": 88,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-09-26"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-10-20"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "b9414e8157bb033e"
+        },
+        {
+          "student_id": "STU006",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "B",
+          "completion_date": "2024-10-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 70,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-09-17"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-10-15"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "48eca617c4ef4061"
+        },
+        {
+          "student_id": "STU006",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-11-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 81,
+          "attendance_rate": 99,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-11-20"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-10-20"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "21cc6daa363a0828"
+        },
+        {
+          "student_id": "STU006",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-12-07",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 77,
+          "attendance_rate": 99,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-11-16"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-11-17"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-11-17"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "d3000501a31cc49d"
+        },
+        {
+          "student_id": "STU006",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "D",
+          "completion_date": "2024-12-13",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 80,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-11-25"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-09-28"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "2ac08e7a964ddffe"
+        }
+      ],
+      "lms_student_id": "037ab7fde488",
+      "last_login": "2024-09-18",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU007",
+      "student_name": "Student STU007",
+      "email": "stu007@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 3,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 18,
+      "course_completions": [
+        {
+          "student_id": "STU007",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "C+",
+          "completion_date": "2024-09-03",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 90,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-10-06"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "28b8dc7869831a19"
+        },
+        {
+          "student_id": "STU007",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-09-08",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 87,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-11-01"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-09-13"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "a255f1c6a14fd7b2"
+        },
+        {
+          "student_id": "STU007",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-10-28",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 94,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-10-24"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-09-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-23"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "6d8192a8b36d446c"
+        },
+        {
+          "student_id": "STU007",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "A",
+          "completion_date": "2024-10-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 95,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-09-16"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-12-02"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "c7b28780710d2b20"
+        },
+        {
+          "student_id": "STU007",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-10-31",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 82,
+          "attendance_rate": 83,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-09-22"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-11-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "2be9a9142e4bbc11"
+        },
+        {
+          "student_id": "STU007",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-11-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 95,
+          "attendance_rate": 89,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "fc0457ac5aaaf76d"
+        }
+      ],
+      "lms_student_id": "4935261da562",
+      "last_login": "2024-11-20",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU008",
+      "student_name": "Student STU008",
+      "email": "stu008@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 4,
+      "total_credits": 13,
+      "course_completions": [
+        {
+          "student_id": "STU008",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-09-19",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 64,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-21"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-11-13"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "f86cfeef6dc21d5d"
+        },
+        {
+          "student_id": "STU008",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "D+",
+          "completion_date": "2024-10-25",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 72,
+          "attendance_rate": 95,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-10-26"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-02"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "b9b979690cf89a9a"
+        },
+        {
+          "student_id": "STU008",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "C+",
+          "completion_date": "2024-11-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 74,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "2d14e027ab105a38"
+        },
+        {
+          "student_id": "STU008",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-11-07",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 92,
+          "attendance_rate": 95,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-12-03"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-11-13"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "77f5923267aab2be"
+        }
+      ],
+      "lms_student_id": "5ebb4fd6029e",
+      "last_login": "2024-09-12",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU009",
+      "student_name": "Student STU009",
+      "email": "stu009@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 4,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 18,
+      "course_completions": [
+        {
+          "student_id": "STU009",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-09-02",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 92,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-09-01"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-09-24"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-12-09"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-11-16"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-10-02"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "7b573b354c35df07"
+        },
+        {
+          "student_id": "STU009",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-09-09",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 61,
+          "attendance_rate": 83,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-10-30"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-11-28"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-20"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "3b13a28db12df67f"
+        },
+        {
+          "student_id": "STU009",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-11",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 80,
+          "attendance_rate": 81,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-10-15"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-16"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-09-03"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-09-26"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "d4113648451f8fc6"
+        },
+        {
+          "student_id": "STU009",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-10-26",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 74,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-09-28"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "8e13978e938e66fe"
+        },
+        {
+          "student_id": "STU009",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-11-16",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 88,
+          "attendance_rate": 99,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "18a301af5f41c5ba"
+        },
+        {
+          "student_id": "STU009",
+          "course_code": "CS201",
+          "course_name": "Data Structures",
+          "instructor": "Prof. Anderson",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-12-01",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 87,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-11-18"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-10-06"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-01"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-18"
+            }
+          ],
+          "course_id": "CS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "d08b087ebe1b72db"
+        }
+      ],
+      "lms_student_id": "737bb6b5e980",
+      "last_login": "2024-09-02",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU010",
+      "student_name": "Student STU010",
+      "email": "stu010@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 2,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU010",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-10-03",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 67,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-14"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-11-20"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-09-22"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "e2b4439f1ff895bb"
+        },
+        {
+          "student_id": "STU010",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-10-14",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 88,
+          "attendance_rate": 88,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-21"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-10-06"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "e671c5469a32d49d"
+        },
+        {
+          "student_id": "STU010",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-11-03",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 84,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-10-14"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "bd94b029ed81ed8a"
+        },
+        {
+          "student_id": "STU010",
+          "course_code": "CS201",
+          "course_name": "Data Structures",
+          "instructor": "Prof. Anderson",
+          "credits": 3,
+          "grade": "B-",
+          "completion_date": "2024-12-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 67,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-10-05"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-10-15"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-22"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-12-05"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-09-28"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-09-17"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-10-26"
+            }
+          ],
+          "course_id": "CS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "57bf6598f729ccce"
+        },
+        {
+          "student_id": "STU010",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "B-",
+          "completion_date": "2024-12-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 69,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-11-16"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-11-25"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "8f8c1bf13f961a70"
+        },
+        {
+          "student_id": "STU010",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-12-13",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 95,
+          "attendance_rate": 89,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-10-16"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "c7f760c48e5b5274"
+        }
+      ],
+      "lms_student_id": "d2309a89e345",
+      "last_login": "2024-11-22",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU011",
+      "student_name": "Student STU011",
+      "email": "stu011@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 2,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU011",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "D+",
+          "completion_date": "2024-09-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 70,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-11-26"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "9bf86cebb082b593"
+        },
+        {
+          "student_id": "STU011",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A",
+          "completion_date": "2024-09-21",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 76,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-09-27"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-12-03"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-09-22"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-10-28"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "2183982de5392904"
+        },
+        {
+          "student_id": "STU011",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "B",
+          "completion_date": "2024-09-24",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 65,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-10-27"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-12"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-09-13"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-11-02"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "4cb479c1bd436ca7"
+        },
+        {
+          "student_id": "STU011",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-09-26",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 98,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-10-17"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-28"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-11-16"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-11-01"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "ea48b7d5cfeeb5cb"
+        },
+        {
+          "student_id": "STU011",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "A-",
+          "completion_date": "2024-11-17",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 77,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-10-31"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "40e68598828d9f04"
+        },
+        {
+          "student_id": "STU011",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-12-03",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 90,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-12-02"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "289d006c6b9af69d"
+        }
+      ],
+      "lms_student_id": "fc4a3633360b",
+      "last_login": "2024-10-05",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU012",
+      "student_name": "Student STU012",
+      "email": "stu012@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 3,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 15,
+      "course_completions": [
+        {
+          "student_id": "STU012",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "A",
+          "completion_date": "2024-09-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 75,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-09-26"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "4edc3eab32df6ac5"
+        },
+        {
+          "student_id": "STU012",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 81,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-10-28"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-28"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-10-06"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "9fcec3416a4fdbd6"
+        },
+        {
+          "student_id": "STU012",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "D+",
+          "completion_date": "2024-09-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 89,
+          "attendance_rate": 92,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-26"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-02"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "e288ae41d3e2b772"
+        },
+        {
+          "student_id": "STU012",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "C+",
+          "completion_date": "2024-11-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 99,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-10-17"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-09-16"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-10-31"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "fe8e04d7f81ae6a7"
+        },
+        {
+          "student_id": "STU012",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-12-02",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 76,
+          "attendance_rate": 89,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-12-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-12-05"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-10-16"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-09-06"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-11-08"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-10-12"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "2d7aa29549e1d3e8"
+        }
+      ],
+      "lms_student_id": "31e6d582ecaa",
+      "last_login": "2024-09-13",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU013",
+      "student_name": "Student STU013",
+      "email": "stu013@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 4,
+      "total_credits": 13,
+      "course_completions": [
+        {
+          "student_id": "STU013",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-09-18",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 64,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-11-14"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "25ebcafb94ba2db0"
+        },
+        {
+          "student_id": "STU013",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-10-08",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 86,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-12-02"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-09-24"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-07"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "a78a487aa0e310b1"
+        },
+        {
+          "student_id": "STU013",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-10-31",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 98,
+          "attendance_rate": 88,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-10-24"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 93,
+              "max_score": 100,
+              "submission_date": "2024-09-26"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-27"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-11-25"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "1e128c443635dd50"
+        },
+        {
+          "student_id": "STU013",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B+",
+          "completion_date": "2024-12-13",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 82,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-11-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-21"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-09-22"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-27"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "6d5ad3333b13733f"
+        }
+      ],
+      "lms_student_id": "7cc2e6a397ec",
+      "last_login": "2024-09-30",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU014",
+      "student_name": "Student STU014",
+      "email": "stu014@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 4,
+      "total_credits": 13,
+      "course_completions": [
+        {
+          "student_id": "STU014",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-09-23",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 67,
+          "attendance_rate": 93,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-10-02"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-18"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "c68e5bf1e18f5d1b"
+        },
+        {
+          "student_id": "STU014",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "A",
+          "completion_date": "2024-11-24",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 65,
+          "attendance_rate": 90,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-10-13"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-10-29"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-09-01"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-11-12"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "76e0a20ae51bbe5d"
+        },
+        {
+          "student_id": "STU014",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-12-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 71,
+          "attendance_rate": 88,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-18"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-09-26"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-18"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "4b75637a983eb8b6"
+        },
+        {
+          "student_id": "STU014",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A",
+          "completion_date": "2024-12-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 71,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-10-15"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-11-14"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "cec42cb06af53317"
+        }
+      ],
+      "lms_student_id": "33fc682d8f38",
+      "last_login": "2024-09-04",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU015",
+      "student_name": "Student STU015",
+      "email": "stu015@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 3,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 4,
+      "total_credits": 12,
+      "course_completions": [
+        {
+          "student_id": "STU015",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-09-15",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 69,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "9eefc3a7d6cf08a3"
+        },
+        {
+          "student_id": "STU015",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B+",
+          "completion_date": "2024-10-15",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 63,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "fa497042879ce3cc"
+        },
+        {
+          "student_id": "STU015",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "A+",
+          "completion_date": "2024-10-17",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 96,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-10-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-17"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-09-03"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-31"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-12-01"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "3f340c2a1cbc0272"
+        },
+        {
+          "student_id": "STU015",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "C+",
+          "completion_date": "2024-12-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 67,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-17"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-10-24"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-11"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-17"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "e32316d77d1c74e7"
+        }
+      ],
+      "lms_student_id": "c65680f0aa64",
+      "last_login": "2024-11-28",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU016",
+      "student_name": "Student STU016",
+      "email": "stu016@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 4,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU016",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "C+",
+          "completion_date": "2024-09-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 90,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-11-08"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-12-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-06"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-11"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-10-16"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "8d377388050dabd0"
+        },
+        {
+          "student_id": "STU016",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "A-",
+          "completion_date": "2024-10-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 93,
+          "attendance_rate": 94,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-10-27"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-09-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "50ef92c9fc0f4f77"
+        },
+        {
+          "student_id": "STU016",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "D+",
+          "completion_date": "2024-11-07",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 70,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-09-03"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-11-08"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-11-23"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-11-19"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-15"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "a232690a0d40e8ec"
+        },
+        {
+          "student_id": "STU016",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-11-09",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 67,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-12-14"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-11-19"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "1bce308c4521ec50"
+        },
+        {
+          "student_id": "STU016",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-11-16",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 84,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-11-26"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-10-04"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-10-16"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "e459885228193adf"
+        },
+        {
+          "student_id": "STU016",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B",
+          "completion_date": "2024-11-17",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 82,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-11-06"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-09-20"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "6e391e6c390be5cf"
+        }
+      ],
+      "lms_student_id": "bc855fbfb080",
+      "last_login": "2024-12-02",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU017",
+      "student_name": "Student STU017",
+      "email": "stu017@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU017",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-09-04",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 63,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-04"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-11-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-21"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-10-28"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "719de4593c06cb29"
+        },
+        {
+          "student_id": "STU017",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-10-14",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 78,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-12-09"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 82,
+              "max_score": 100,
+              "submission_date": "2024-11-25"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-10-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-10-03"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-10-21"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-11-04"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "6af7a69e25ec96db"
+        },
+        {
+          "student_id": "STU017",
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "instructor": "Prof. Garcia",
+          "credits": 3,
+          "grade": "A",
+          "completion_date": "2024-10-25",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 92,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 64,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            }
+          ],
+          "course_id": "STAT301_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "44dc92118d5fe4a5"
+        },
+        {
+          "student_id": "STU017",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-11-30",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 90,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-04"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-09-05"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-12-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 92,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-12-06"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "b377e0bcb172fe13"
+        },
+        {
+          "student_id": "STU017",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "B-",
+          "completion_date": "2024-12-02",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 86,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-09-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 63,
+              "max_score": 100,
+              "submission_date": "2024-11-01"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-12-03"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "f9a9f4cfda7b3154"
+        },
+        {
+          "student_id": "STU017",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B+",
+          "completion_date": "2024-12-12",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 74,
+          "attendance_rate": 80,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-09-05"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-12-04"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-10-22"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-10-31"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "19b5a167975716ad"
+        }
+      ],
+      "lms_student_id": "0ce3216f4937",
+      "last_login": "2024-10-18",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU018",
+      "student_name": "Student STU018",
+      "email": "stu018@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 4,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 18,
+      "course_completions": [
+        {
+          "student_id": "STU018",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-07",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 62,
+          "attendance_rate": 84,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 77,
+              "max_score": 100,
+              "submission_date": "2024-10-27"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-10-13"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-09-04"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-14"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-09-16"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "dce85c71379db4eb"
+        },
+        {
+          "student_id": "STU018",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "B-",
+          "completion_date": "2024-09-15",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 87,
+          "attendance_rate": 91,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-09-19"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-30"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "00505e0c72478435"
+        },
+        {
+          "student_id": "STU018",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "D+",
+          "completion_date": "2024-09-23",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 96,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-10-29"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-09-06"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "5efbbdd02de369f2"
+        },
+        {
+          "student_id": "STU018",
+          "course_code": "CS201",
+          "course_name": "Data Structures",
+          "instructor": "Prof. Anderson",
+          "credits": 3,
+          "grade": "A+",
+          "completion_date": "2024-09-24",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 81,
+          "attendance_rate": 93,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-10-09"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 72,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-11-20"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-10-30"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-10-30"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-09-24"
+            }
+          ],
+          "course_id": "CS201_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "ce14998ba3a80b7e"
+        },
+        {
+          "student_id": "STU018",
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "instructor": "Prof. Brown",
+          "credits": 2,
+          "grade": "D+",
+          "completion_date": "2024-11-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 97,
+          "attendance_rate": 81,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 75,
+              "max_score": 100,
+              "submission_date": "2024-11-28"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-09-29"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-12-09"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-12-10"
+            }
+          ],
+          "course_id": "ENG102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "564d06184c19197b"
+        },
+        {
+          "student_id": "STU018",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-12-05",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 76,
+          "attendance_rate": 82,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 71,
+              "max_score": 100,
+              "submission_date": "2024-10-20"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-09-30"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-15"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 81,
+              "max_score": 100,
+              "submission_date": "2024-10-03"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-11-24"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "bc7d8b8943f6bb80"
+        }
+      ],
+      "lms_student_id": "770ed3ca3c93",
+      "last_login": "2024-10-18",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU019",
+      "student_name": "Student STU019",
+      "email": "stu019@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 6,
+      "total_credits": 19,
+      "course_completions": [
+        {
+          "student_id": "STU019",
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "instructor": "Prof. Taylor",
+          "credits": 4,
+          "grade": "A-",
+          "completion_date": "2024-10-16",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 83,
+          "attendance_rate": 85,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-11-13"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-12-12"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 73,
+              "max_score": 100,
+              "submission_date": "2024-11-02"
+            }
+          ],
+          "course_id": "PHYS201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "39018f852d0c1f63"
+        },
+        {
+          "student_id": "STU019",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "B-",
+          "completion_date": "2024-11-01",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 89,
+          "attendance_rate": 93,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-10-07"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 95,
+              "max_score": 100,
+              "submission_date": "2024-09-09"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 94,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "9a89eed0b0bc1d4e"
+        },
+        {
+          "student_id": "STU019",
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "instructor": "Prof. Lee",
+          "credits": 3,
+          "grade": "B",
+          "completion_date": "2024-11-04",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 60,
+          "attendance_rate": 98,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 69,
+              "max_score": 100,
+              "submission_date": "2024-10-17"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 80,
+              "max_score": 100,
+              "submission_date": "2024-11-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 90,
+              "max_score": 100,
+              "submission_date": "2024-12-08"
+            }
+          ],
+          "course_id": "DB301_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "27481ec7119862e3"
+        },
+        {
+          "student_id": "STU019",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-11-22",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 92,
+          "attendance_rate": 94,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-10-31"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "19b5f743f36a4d03"
+        },
+        {
+          "student_id": "STU019",
+          "course_code": "CS201",
+          "course_name": "Data Structures",
+          "instructor": "Prof. Anderson",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-11-26",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 60,
+          "attendance_rate": 97,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 67,
+              "max_score": 100,
+              "submission_date": "2024-09-21"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-12-13"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-12-07"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 78,
+              "max_score": 100,
+              "submission_date": "2024-11-22"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 68,
+              "max_score": 100,
+              "submission_date": "2024-12-04"
+            },
+            {
+              "assignment_name": "Assignment 7",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-11-20"
+            }
+          ],
+          "course_id": "CS201_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "28c2f2bbf628f942"
+        },
+        {
+          "student_id": "STU019",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-12-06",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 81,
+          "attendance_rate": 96,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 99,
+              "max_score": 100,
+              "submission_date": "2024-11-20"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-22"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 86,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 74,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-09-20"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-09-10"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_2",
+          "lms_record_id": "59cca71a22b3998e"
+        }
+      ],
+      "lms_student_id": "76bbd693444e",
+      "last_login": "2024-09-10",
+      "portal_access": true
+    },
+    {
+      "student_id": "STU020",
+      "student_name": "Student STU020",
+      "email": "stu020@student.iu.edu.vn",
+      "program": "Computer Science",
+      "year_level": 1,
+      "semester": "Fall_2024",
+      "enrollment_status": "ACTIVE",
+      "total_courses": 5,
+      "total_credits": 16,
+      "course_completions": [
+        {
+          "student_id": "STU020",
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "instructor": "Prof. Smith",
+          "credits": 3,
+          "grade": "D",
+          "completion_date": "2024-09-02",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 78,
+          "attendance_rate": 89,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-08"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-09-02"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-09-07"
+            }
+          ],
+          "course_id": "CS101_Fall_2024",
+          "section": "SEC_3",
+          "lms_record_id": "96d6e74754fb758a"
+        },
+        {
+          "student_id": "STU020",
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "instructor": "Prof. Johnson",
+          "credits": 3,
+          "grade": "B+",
+          "completion_date": "2024-09-09",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 96,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 89,
+              "max_score": 100,
+              "submission_date": "2024-10-01"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 83,
+              "max_score": 100,
+              "submission_date": "2024-10-06"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 66,
+              "max_score": 100,
+              "submission_date": "2024-11-12"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 79,
+              "max_score": 100,
+              "submission_date": "2024-09-23"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 62,
+              "max_score": 100,
+              "submission_date": "2024-10-10"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 97,
+              "max_score": 100,
+              "submission_date": "2024-10-16"
+            }
+          ],
+          "course_id": "CS102_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "1683cf478ca806cd"
+        },
+        {
+          "student_id": "STU020",
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "instructor": "Prof. Miller",
+          "credits": 3,
+          "grade": "A-",
+          "completion_date": "2024-09-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 68,
+          "attendance_rate": 87,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-10-03"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-11-27"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 98,
+              "max_score": 100,
+              "submission_date": "2024-09-11"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-09-15"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-09-16"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-12-03"
+            }
+          ],
+          "course_id": "CS202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "ebb9c72b30eedf96"
+        },
+        {
+          "student_id": "STU020",
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "instructor": "Prof. Wilson",
+          "credits": 3,
+          "grade": "C",
+          "completion_date": "2024-09-29",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 86,
+          "attendance_rate": 95,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 84,
+              "max_score": 100,
+              "submission_date": "2024-10-14"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 60,
+              "max_score": 100,
+              "submission_date": "2024-10-23"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 96,
+              "max_score": 100,
+              "submission_date": "2024-10-08"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 85,
+              "max_score": 100,
+              "submission_date": "2024-09-28"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 88,
+              "max_score": 100,
+              "submission_date": "2024-09-25"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 87,
+              "max_score": 100,
+              "submission_date": "2024-11-03"
+            }
+          ],
+          "course_id": "MATH202_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "b15e0bd94a9c5de2"
+        },
+        {
+          "student_id": "STU020",
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "instructor": "Prof. Davis",
+          "credits": 4,
+          "grade": "A+",
+          "completion_date": "2024-11-30",
+          "semester": "Fall_2024",
+          "institution": "International University Vietnam",
+          "enrollment_date": "2024-09-01",
+          "final_exam_score": 63,
+          "attendance_rate": 86,
+          "assignment_scores": [
+            {
+              "assignment_name": "Assignment 1",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-10-25"
+            },
+            {
+              "assignment_name": "Assignment 2",
+              "score": 76,
+              "max_score": 100,
+              "submission_date": "2024-11-26"
+            },
+            {
+              "assignment_name": "Assignment 3",
+              "score": 91,
+              "max_score": 100,
+              "submission_date": "2024-12-14"
+            },
+            {
+              "assignment_name": "Assignment 4",
+              "score": 61,
+              "max_score": 100,
+              "submission_date": "2024-11-09"
+            },
+            {
+              "assignment_name": "Assignment 5",
+              "score": 65,
+              "max_score": 100,
+              "submission_date": "2024-10-03"
+            },
+            {
+              "assignment_name": "Assignment 6",
+              "score": 70,
+              "max_score": 100,
+              "submission_date": "2024-09-14"
+            }
+          ],
+          "course_id": "MATH201_Fall_2024",
+          "section": "SEC_1",
+          "lms_record_id": "c23c0c17be50a143"
+        }
+      ],
+      "lms_student_id": "24851e7c6d8d",
+      "last_login": "2024-12-01",
+      "portal_access": true
+    }
+  ],
+  "summary_statistics": {
+    "total_students": 20,
+    "total_enrollments": 106,
+    "total_credits_awarded": 329,
+    "average_courses_per_student": 5.3,
+    "course_enrollment_counts": {
+      "CS102": 17,
+      "CS201": 5,
+      "PHYS201": 13,
+      "DB301": 14,
+      "CS101": 13,
+      "STAT301": 7,
+      "CS202": 11,
+      "ENG102": 9,
+      "MATH202": 10,
+      "MATH201": 7
+    },
+    "most_popular_course": [
+      "CS102",
+      17
+    ],
+    "grade_distribution": {
+      "B+": 14,
+      "A+": 13,
+      "C": 12,
+      "D": 8,
+      "B-": 6,
+      "D+": 13,
+      "B": 11,
+      "A-": 16,
+      "C+": 6,
+      "A": 7
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "student_id": "STU006",
+  "proof_package": {
+    "claim": {
+      "student_id": "STU006",
+      "claimed_courses": [
+        "CS101",
+        "ENG102",
+        "CS102",
+        "DB301",
+        "PHYS201"
+      ],
+      "semester": "Fall_2024",
+      "total_courses_claimed": 5,
+      "claim_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "verkle_proof": {
+      "polynomial_proof": "920e4b6ef54f2122a7853b92ad1dea3ed1ec7fd2031754986b65c6558ffc3b63793c2477553d8b3fa8865b4a41b3f4ab",
+      "evaluation_points": [
+        {
+          "course_code": "CS101",
+          "evaluation_point": "x_27",
+          "leaf_index": 27,
+          "polynomial_value": "6b67ae8f1068c110b0584942f8d7dee0b09503a580db1d4a971e9c937f442407"
+        },
+        {
+          "course_code": "ENG102",
+          "evaluation_point": "x_28",
+          "leaf_index": 28,
+          "polynomial_value": "f441ec98c08934567fe55bcf8ef662e8dd8ec22b2749907d0bb8b1029b7dccaf"
+        },
+        {
+          "course_code": "CS102",
+          "evaluation_point": "x_29",
+          "leaf_index": 29,
+          "polynomial_value": "db00d88e89ae81c0b610896d51b8919ae56c57b24d9e020792d1eeb5f9f99614"
+        },
+        {
+          "course_code": "DB301",
+          "evaluation_point": "x_30",
+          "leaf_index": 30,
+          "polynomial_value": "6d892e28d7865c5a49c51f4df5c5dad01bbf3e536e60fcb8a253f08f2da1d44e"
+        },
+        {
+          "course_code": "PHYS201",
+          "evaluation_point": "x_31",
+          "leaf_index": 31,
+          "polynomial_value": "e518aca84ee729d84feb5601130c52128b2bc8cfd6fe5dbd5f30b3724c40f3d6"
+        }
+      ],
+      "claimed_values": [
+        {
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "grade": "C",
+          "completion_date": "2024-10-19",
+          "credits": 3,
+          "instructor": "Prof. Smith",
+          "verification_hash": "6b67ae8f1068c110b0584942f8d7dee0b09503a580db1d4a971e9c937f442407"
+        },
+        {
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "grade": "B",
+          "completion_date": "2024-10-22",
+          "credits": 2,
+          "instructor": "Prof. Brown",
+          "verification_hash": "f441ec98c08934567fe55bcf8ef662e8dd8ec22b2749907d0bb8b1029b7dccaf"
+        },
+        {
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "grade": "D+",
+          "completion_date": "2024-11-29",
+          "credits": 3,
+          "instructor": "Prof. Johnson",
+          "verification_hash": "db00d88e89ae81c0b610896d51b8919ae56c57b24d9e020792d1eeb5f9f99614"
+        },
+        {
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "grade": "B+",
+          "completion_date": "2024-12-07",
+          "credits": 3,
+          "instructor": "Prof. Lee",
+          "verification_hash": "6d892e28d7865c5a49c51f4df5c5dad01bbf3e536e60fcb8a253f08f2da1d44e"
+        },
+        {
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "grade": "D",
+          "completion_date": "2024-12-13",
+          "credits": 4,
+          "instructor": "Prof. Taylor",
+          "verification_hash": "e518aca84ee729d84feb5601130c52128b2bc8cfd6fe5dbd5f30b3724c40f3d6"
+        }
+      ],
+      "proof_size_bytes": 48,
+      "verification_algorithm": "verkle_verify_v1"
+    },
+    "blockchain_reference": {
+      "network": "sepolia",
+      "contract_address": "0xc2da566830c1b629b93ab687854f5fd5d1791a3f",
+      "tree_commitment": "437bc6d143f0e4f524fec7078438782b87836f2b37d45b26a1f360e8d8107061",
+      "block_number": 8064107,
+      "transaction_hash": "0x3ad82e152d700d2c7f1eeb40b2db8dae04201fb518b5bd253535260a5226dec4",
+      "deployment_timestamp": "2025-06-25T03:38:52.671Z"
+    },
+    "institutional_verification": {
+      "institution": "International University Vietnam",
+      "semester": "Fall_2024",
+      "digital_signature": "783f5cf81f1e1a41e212a1310257e4f5dd93a0eb4ada3cd250e71874e8ad78a3",
+      "certificate_chain": "IU_Vietnam_CA_2024",
+      "verification_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "metadata": {
+      "proof_version": "1.0.0",
+      "total_students_in_tree": 20,
+      "total_leaves_in_tree": 106,
+      "student_leaf_count": 5,
+      "proof_generation_timestamp": "2025-06-25T03:38:52.674Z",
+      "expires_at": "2026-06-25T03:38:52.674Z",
+      "usage_permissions": {
+        "shareable": true,
+        "verifiable": true,
+        "privacy_level": "selective_disclosure"
+      }
+    }
+  },
+  "course_metadata": [
+    {
+      "course_code": "CS101",
+      "course_name": "Introduction to Programming",
+      "credits": 3,
+      "grade": "C",
+      "completion_date": "2024-10-19",
+      "instructor": "Prof. Smith"
+    },
+    {
+      "course_code": "ENG102",
+      "course_name": "Technical Writing",
+      "credits": 2,
+      "grade": "B",
+      "completion_date": "2024-10-22",
+      "instructor": "Prof. Brown"
+    },
+    {
+      "course_code": "CS102",
+      "course_name": "Computer Science Fundamentals",
+      "credits": 3,
+      "grade": "D+",
+      "completion_date": "2024-11-29",
+      "instructor": "Prof. Johnson"
+    },
+    {
+      "course_code": "DB301",
+      "course_name": "Database Systems",
+      "credits": 3,
+      "grade": "B+",
+      "completion_date": "2024-12-07",
+      "instructor": "Prof. Lee"
+    },
+    {
+      "course_code": "PHYS201",
+      "course_name": "Physics II",
+      "credits": 4,
+      "grade": "D",
+      "completion_date": "2024-12-13",
+      "instructor": "Prof. Taylor"
+    }
+  ],
+  "proof_summary": {
+    "courses_included": 5,
+    "total_credits": 15,
+    "proof_size_kb": 3.22
+  }
+}

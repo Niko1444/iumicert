@@ -1,0 +1,201 @@
+{
+  "student_id": "STU016",
+  "proof_package": {
+    "claim": {
+      "student_id": "STU016",
+      "claimed_courses": [
+        "MATH202",
+        "MATH201",
+        "ENG102",
+        "CS202",
+        "CS102",
+        "PHYS201"
+      ],
+      "semester": "Fall_2024",
+      "total_courses_claimed": 6,
+      "claim_timestamp": "2025-06-25T03:38:52.675Z"
+    },
+    "verkle_proof": {
+      "polynomial_proof": "60a80d8530931bc6b92148efcd4c40de80729d5db409773dfad87edb09559008bde1810f06e882061f2ecc1e9bc3eac8",
+      "evaluation_points": [
+        {
+          "course_code": "MATH202",
+          "evaluation_point": "x_77",
+          "leaf_index": 77,
+          "polynomial_value": "61ddd6f6103e704579baf78ee7c53ba9efda5ab3c454fd44d71f26bc7f15b5c4"
+        },
+        {
+          "course_code": "MATH201",
+          "evaluation_point": "x_78",
+          "leaf_index": 78,
+          "polynomial_value": "458f3cb7d710fff8ba89302653226f0ed67ba9a04c83a761bb5aaca8bebb8e07"
+        },
+        {
+          "course_code": "ENG102",
+          "evaluation_point": "x_79",
+          "leaf_index": 79,
+          "polynomial_value": "64311e9f772a1d6620612d11c50df216e4cfa366570ed4fff739f788029aa86d"
+        },
+        {
+          "course_code": "CS202",
+          "evaluation_point": "x_80",
+          "leaf_index": 80,
+          "polynomial_value": "9212e5bb4b61326b8250df172ce58db5e22ba87fc60c5ea8d555cdaa621cb005"
+        },
+        {
+          "course_code": "CS102",
+          "evaluation_point": "x_81",
+          "leaf_index": 81,
+          "polynomial_value": "c1e6ce80e214b82d67f6b8e7332e7d8e5b1f9db7c90def3f3961c22492567e21"
+        },
+        {
+          "course_code": "PHYS201",
+          "evaluation_point": "x_82",
+          "leaf_index": 82,
+          "polynomial_value": "b2ea9584593be64bf4982f808a3266bf8196a939ebfb972d9e5596dffbf630f2"
+        }
+      ],
+      "claimed_values": [
+        {
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "grade": "C+",
+          "completion_date": "2024-09-05",
+          "credits": 3,
+          "instructor": "Prof. Wilson",
+          "verification_hash": "61ddd6f6103e704579baf78ee7c53ba9efda5ab3c454fd44d71f26bc7f15b5c4"
+        },
+        {
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "grade": "A-",
+          "completion_date": "2024-10-22",
+          "credits": 4,
+          "instructor": "Prof. Davis",
+          "verification_hash": "458f3cb7d710fff8ba89302653226f0ed67ba9a04c83a761bb5aaca8bebb8e07"
+        },
+        {
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "grade": "D+",
+          "completion_date": "2024-11-07",
+          "credits": 2,
+          "instructor": "Prof. Brown",
+          "verification_hash": "64311e9f772a1d6620612d11c50df216e4cfa366570ed4fff739f788029aa86d"
+        },
+        {
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "grade": "C",
+          "completion_date": "2024-11-09",
+          "credits": 3,
+          "instructor": "Prof. Miller",
+          "verification_hash": "9212e5bb4b61326b8250df172ce58db5e22ba87fc60c5ea8d555cdaa621cb005"
+        },
+        {
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "grade": "D+",
+          "completion_date": "2024-11-16",
+          "credits": 3,
+          "instructor": "Prof. Johnson",
+          "verification_hash": "c1e6ce80e214b82d67f6b8e7332e7d8e5b1f9db7c90def3f3961c22492567e21"
+        },
+        {
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "grade": "B",
+          "completion_date": "2024-11-17",
+          "credits": 4,
+          "instructor": "Prof. Taylor",
+          "verification_hash": "b2ea9584593be64bf4982f808a3266bf8196a939ebfb972d9e5596dffbf630f2"
+        }
+      ],
+      "proof_size_bytes": 48,
+      "verification_algorithm": "verkle_verify_v1"
+    },
+    "blockchain_reference": {
+      "network": "sepolia",
+      "contract_address": "0xc2da566830c1b629b93ab687854f5fd5d1791a3f",
+      "tree_commitment": "437bc6d143f0e4f524fec7078438782b87836f2b37d45b26a1f360e8d8107061",
+      "block_number": 8064107,
+      "transaction_hash": "0x3ad82e152d700d2c7f1eeb40b2db8dae04201fb518b5bd253535260a5226dec4",
+      "deployment_timestamp": "2025-06-25T03:38:52.671Z"
+    },
+    "institutional_verification": {
+      "institution": "International University Vietnam",
+      "semester": "Fall_2024",
+      "digital_signature": "ebef2d022087f5646206c6f21f8493f08f22c6916709622a8831e7cb1f86594d",
+      "certificate_chain": "IU_Vietnam_CA_2024",
+      "verification_timestamp": "2025-06-25T03:38:52.675Z"
+    },
+    "metadata": {
+      "proof_version": "1.0.0",
+      "total_students_in_tree": 20,
+      "total_leaves_in_tree": 106,
+      "student_leaf_count": 6,
+      "proof_generation_timestamp": "2025-06-25T03:38:52.675Z",
+      "expires_at": "2026-06-25T03:38:52.675Z",
+      "usage_permissions": {
+        "shareable": true,
+        "verifiable": true,
+        "privacy_level": "selective_disclosure"
+      }
+    }
+  },
+  "course_metadata": [
+    {
+      "course_code": "MATH202",
+      "course_name": "Discrete Mathematics",
+      "credits": 3,
+      "grade": "C+",
+      "completion_date": "2024-09-05",
+      "instructor": "Prof. Wilson"
+    },
+    {
+      "course_code": "MATH201",
+      "course_name": "Calculus II",
+      "credits": 4,
+      "grade": "A-",
+      "completion_date": "2024-10-22",
+      "instructor": "Prof. Davis"
+    },
+    {
+      "course_code": "ENG102",
+      "course_name": "Technical Writing",
+      "credits": 2,
+      "grade": "D+",
+      "completion_date": "2024-11-07",
+      "instructor": "Prof. Brown"
+    },
+    {
+      "course_code": "CS202",
+      "course_name": "Object-Oriented Programming",
+      "credits": 3,
+      "grade": "C",
+      "completion_date": "2024-11-09",
+      "instructor": "Prof. Miller"
+    },
+    {
+      "course_code": "CS102",
+      "course_name": "Computer Science Fundamentals",
+      "credits": 3,
+      "grade": "D+",
+      "completion_date": "2024-11-16",
+      "instructor": "Prof. Johnson"
+    },
+    {
+      "course_code": "PHYS201",
+      "course_name": "Physics II",
+      "credits": 4,
+      "grade": "B",
+      "completion_date": "2024-11-17",
+      "instructor": "Prof. Taylor"
+    }
+  ],
+  "proof_summary": {
+    "courses_included": 6,
+    "total_credits": 19,
+    "proof_size_kb": 3.61
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "student_id": "STU011",
+  "proof_package": {
+    "claim": {
+      "student_id": "STU011",
+      "claimed_courses": [
+        "PHYS201",
+        "CS102",
+        "ENG102",
+        "MATH202",
+        "MATH201",
+        "STAT301"
+      ],
+      "semester": "Fall_2024",
+      "total_courses_claimed": 6,
+      "claim_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "verkle_proof": {
+      "polynomial_proof": "d49eb915d8dbf8f880124f30bd10086b22fef69713afbfbb138fc8531286ff7089222ffc7dc976077f30efb357ebfcc1",
+      "evaluation_points": [
+        {
+          "course_code": "PHYS201",
+          "evaluation_point": "x_54",
+          "leaf_index": 54,
+          "polynomial_value": "52bc27f2c95b43b5d17857ee0f669c00c178b93a3b40433b64b006857f2a6413"
+        },
+        {
+          "course_code": "CS102",
+          "evaluation_point": "x_55",
+          "leaf_index": 55,
+          "polynomial_value": "f02868fc623dc2f2da13d25907b4cae1385747ce22a5baf99fb2d7cfd1bccacd"
+        },
+        {
+          "course_code": "ENG102",
+          "evaluation_point": "x_56",
+          "leaf_index": 56,
+          "polynomial_value": "24d740a07a6042277b04422a7214caa1970f976cb71ba211eccba4517ac76cbc"
+        },
+        {
+          "course_code": "MATH202",
+          "evaluation_point": "x_57",
+          "leaf_index": 57,
+          "polynomial_value": "227c6d82eb8fad13999f9c499ac637e9065f2398d831bb9d5ba47e274cf90a0d"
+        },
+        {
+          "course_code": "MATH201",
+          "evaluation_point": "x_58",
+          "leaf_index": 58,
+          "polynomial_value": "e7f69e2520e38037412e0a1d02da05baebe301fcec180e168017fdb2babd6a67"
+        },
+        {
+          "course_code": "STAT301",
+          "evaluation_point": "x_59",
+          "leaf_index": 59,
+          "polynomial_value": "5a2cc6dfd5e0da95798ce0dafff2cb339e7563c7aa4bf82b60a2f02dfd1727eb"
+        }
+      ],
+      "claimed_values": [
+        {
+          "course_code": "PHYS201",
+          "course_name": "Physics II",
+          "grade": "D+",
+          "completion_date": "2024-09-12",
+          "credits": 4,
+          "instructor": "Prof. Taylor",
+          "verification_hash": "52bc27f2c95b43b5d17857ee0f669c00c178b93a3b40433b64b006857f2a6413"
+        },
+        {
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "grade": "A",
+          "completion_date": "2024-09-21",
+          "credits": 3,
+          "instructor": "Prof. Johnson",
+          "verification_hash": "f02868fc623dc2f2da13d25907b4cae1385747ce22a5baf99fb2d7cfd1bccacd"
+        },
+        {
+          "course_code": "ENG102",
+          "course_name": "Technical Writing",
+          "grade": "B",
+          "completion_date": "2024-09-24",
+          "credits": 2,
+          "instructor": "Prof. Brown",
+          "verification_hash": "24d740a07a6042277b04422a7214caa1970f976cb71ba211eccba4517ac76cbc"
+        },
+        {
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "grade": "A+",
+          "completion_date": "2024-09-26",
+          "credits": 3,
+          "instructor": "Prof. Wilson",
+          "verification_hash": "227c6d82eb8fad13999f9c499ac637e9065f2398d831bb9d5ba47e274cf90a0d"
+        },
+        {
+          "course_code": "MATH201",
+          "course_name": "Calculus II",
+          "grade": "A-",
+          "completion_date": "2024-11-17",
+          "credits": 4,
+          "instructor": "Prof. Davis",
+          "verification_hash": "e7f69e2520e38037412e0a1d02da05baebe301fcec180e168017fdb2babd6a67"
+        },
+        {
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "grade": "B+",
+          "completion_date": "2024-12-03",
+          "credits": 3,
+          "instructor": "Prof. Garcia",
+          "verification_hash": "5a2cc6dfd5e0da95798ce0dafff2cb339e7563c7aa4bf82b60a2f02dfd1727eb"
+        }
+      ],
+      "proof_size_bytes": 48,
+      "verification_algorithm": "verkle_verify_v1"
+    },
+    "blockchain_reference": {
+      "network": "sepolia",
+      "contract_address": "0xc2da566830c1b629b93ab687854f5fd5d1791a3f",
+      "tree_commitment": "437bc6d143f0e4f524fec7078438782b87836f2b37d45b26a1f360e8d8107061",
+      "block_number": 8064107,
+      "transaction_hash": "0x3ad82e152d700d2c7f1eeb40b2db8dae04201fb518b5bd253535260a5226dec4",
+      "deployment_timestamp": "2025-06-25T03:38:52.671Z"
+    },
+    "institutional_verification": {
+      "institution": "International University Vietnam",
+      "semester": "Fall_2024",
+      "digital_signature": "5dcabb068b1db24a24bb10177de06344d317da65fcc1d664396b9482e7bb7920",
+      "certificate_chain": "IU_Vietnam_CA_2024",
+      "verification_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "metadata": {
+      "proof_version": "1.0.0",
+      "total_students_in_tree": 20,
+      "total_leaves_in_tree": 106,
+      "student_leaf_count": 6,
+      "proof_generation_timestamp": "2025-06-25T03:38:52.674Z",
+      "expires_at": "2026-06-25T03:38:52.674Z",
+      "usage_permissions": {
+        "shareable": true,
+        "verifiable": true,
+        "privacy_level": "selective_disclosure"
+      }
+    }
+  },
+  "course_metadata": [
+    {
+      "course_code": "PHYS201",
+      "course_name": "Physics II",
+      "credits": 4,
+      "grade": "D+",
+      "completion_date": "2024-09-12",
+      "instructor": "Prof. Taylor"
+    },
+    {
+      "course_code": "CS102",
+      "course_name": "Computer Science Fundamentals",
+      "credits": 3,
+      "grade": "A",
+      "completion_date": "2024-09-21",
+      "instructor": "Prof. Johnson"
+    },
+    {
+      "course_code": "ENG102",
+      "course_name": "Technical Writing",
+      "credits": 2,
+      "grade": "B",
+      "completion_date": "2024-09-24",
+      "instructor": "Prof. Brown"
+    },
+    {
+      "course_code": "MATH202",
+      "course_name": "Discrete Mathematics",
+      "credits": 3,
+      "grade": "A+",
+      "completion_date": "2024-09-26",
+      "instructor": "Prof. Wilson"
+    },
+    {
+      "course_code": "MATH201",
+      "course_name": "Calculus II",
+      "credits": 4,
+      "grade": "A-",
+      "completion_date": "2024-11-17",
+      "instructor": "Prof. Davis"
+    },
+    {
+      "course_code": "STAT301",
+      "course_name": "Statistics",
+      "credits": 3,
+      "grade": "B+",
+      "completion_date": "2024-12-03",
+      "instructor": "Prof. Garcia"
+    }
+  ],
+  "proof_summary": {
+    "courses_included": 6,
+    "total_credits": 19,
+    "proof_size_kb": 3.6
+  }
+}

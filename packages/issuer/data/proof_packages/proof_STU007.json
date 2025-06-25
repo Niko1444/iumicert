@@ -1,0 +1,201 @@
+{
+  "student_id": "STU007",
+  "proof_package": {
+    "claim": {
+      "student_id": "STU007",
+      "claimed_courses": [
+        "STAT301",
+        "MATH202",
+        "CS102",
+        "DB301",
+        "CS202",
+        "CS101"
+      ],
+      "semester": "Fall_2024",
+      "total_courses_claimed": 6,
+      "claim_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "verkle_proof": {
+      "polynomial_proof": "5facf51c9d859362834f76ebe89dcd2543158a291d4aef683879a7a2c17e1bc29fc7f91f7f60bb5d1acfd27c57c60c33",
+      "evaluation_points": [
+        {
+          "course_code": "STAT301",
+          "evaluation_point": "x_32",
+          "leaf_index": 32,
+          "polynomial_value": "b0320d8fb5e1a5ec0eab0fab1f4811e228f0b89c581aec912ddac1c77f7cb801"
+        },
+        {
+          "course_code": "MATH202",
+          "evaluation_point": "x_33",
+          "leaf_index": 33,
+          "polynomial_value": "3c24dbb1ac30ecc982640eeb9f353d11a08e8f6acdc470fa6249103fadcaca07"
+        },
+        {
+          "course_code": "CS102",
+          "evaluation_point": "x_34",
+          "leaf_index": 34,
+          "polynomial_value": "a7e55d2f97d0437a99d4491285d61d16eb6040ddd511313a58806c67db42004c"
+        },
+        {
+          "course_code": "DB301",
+          "evaluation_point": "x_35",
+          "leaf_index": 35,
+          "polynomial_value": "a671e99dc2fba809624135c3b306e48228127ac2d1a034fac1f5251d7a5622dd"
+        },
+        {
+          "course_code": "CS202",
+          "evaluation_point": "x_36",
+          "leaf_index": 36,
+          "polynomial_value": "d3d208fb6998273258e268ce976bbca63f2b99949e7ac975507d554676f33e8d"
+        },
+        {
+          "course_code": "CS101",
+          "evaluation_point": "x_37",
+          "leaf_index": 37,
+          "polynomial_value": "8f523cf5152cf7e88979614ef7bfd63c1177d09ed0a3f18d64391681adf0ae0b"
+        }
+      ],
+      "claimed_values": [
+        {
+          "course_code": "STAT301",
+          "course_name": "Statistics",
+          "grade": "C+",
+          "completion_date": "2024-09-03",
+          "credits": 3,
+          "instructor": "Prof. Garcia",
+          "verification_hash": "b0320d8fb5e1a5ec0eab0fab1f4811e228f0b89c581aec912ddac1c77f7cb801"
+        },
+        {
+          "course_code": "MATH202",
+          "course_name": "Discrete Mathematics",
+          "grade": "B",
+          "completion_date": "2024-09-08",
+          "credits": 3,
+          "instructor": "Prof. Wilson",
+          "verification_hash": "3c24dbb1ac30ecc982640eeb9f353d11a08e8f6acdc470fa6249103fadcaca07"
+        },
+        {
+          "course_code": "CS102",
+          "course_name": "Computer Science Fundamentals",
+          "grade": "B+",
+          "completion_date": "2024-10-28",
+          "credits": 3,
+          "instructor": "Prof. Johnson",
+          "verification_hash": "a7e55d2f97d0437a99d4491285d61d16eb6040ddd511313a58806c67db42004c"
+        },
+        {
+          "course_code": "DB301",
+          "course_name": "Database Systems",
+          "grade": "A",
+          "completion_date": "2024-10-29",
+          "credits": 3,
+          "instructor": "Prof. Lee",
+          "verification_hash": "a671e99dc2fba809624135c3b306e48228127ac2d1a034fac1f5251d7a5622dd"
+        },
+        {
+          "course_code": "CS202",
+          "course_name": "Object-Oriented Programming",
+          "grade": "B+",
+          "completion_date": "2024-10-31",
+          "credits": 3,
+          "instructor": "Prof. Miller",
+          "verification_hash": "d3d208fb6998273258e268ce976bbca63f2b99949e7ac975507d554676f33e8d"
+        },
+        {
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "grade": "B",
+          "completion_date": "2024-11-12",
+          "credits": 3,
+          "instructor": "Prof. Smith",
+          "verification_hash": "8f523cf5152cf7e88979614ef7bfd63c1177d09ed0a3f18d64391681adf0ae0b"
+        }
+      ],
+      "proof_size_bytes": 48,
+      "verification_algorithm": "verkle_verify_v1"
+    },
+    "blockchain_reference": {
+      "network": "sepolia",
+      "contract_address": "0xc2da566830c1b629b93ab687854f5fd5d1791a3f",
+      "tree_commitment": "437bc6d143f0e4f524fec7078438782b87836f2b37d45b26a1f360e8d8107061",
+      "block_number": 8064107,
+      "transaction_hash": "0x3ad82e152d700d2c7f1eeb40b2db8dae04201fb518b5bd253535260a5226dec4",
+      "deployment_timestamp": "2025-06-25T03:38:52.671Z"
+    },
+    "institutional_verification": {
+      "institution": "International University Vietnam",
+      "semester": "Fall_2024",
+      "digital_signature": "f2b5aced9eae3a8356ea9f2f489fd064b464430ac9ce6acc8ca6e702fb9c190b",
+      "certificate_chain": "IU_Vietnam_CA_2024",
+      "verification_timestamp": "2025-06-25T03:38:52.674Z"
+    },
+    "metadata": {
+      "proof_version": "1.0.0",
+      "total_students_in_tree": 20,
+      "total_leaves_in_tree": 106,
+      "student_leaf_count": 6,
+      "proof_generation_timestamp": "2025-06-25T03:38:52.674Z",
+      "expires_at": "2026-06-25T03:38:52.674Z",
+      "usage_permissions": {
+        "shareable": true,
+        "verifiable": true,
+        "privacy_level": "selective_disclosure"
+      }
+    }
+  },
+  "course_metadata": [
+    {
+      "course_code": "STAT301",
+      "course_name": "Statistics",
+      "credits": 3,
+      "grade": "C+",
+      "completion_date": "2024-09-03",
+      "instructor": "Prof. Garcia"
+    },
+    {
+      "course_code": "MATH202",
+      "course_name": "Discrete Mathematics",
+      "credits": 3,
+      "grade": "B",
+      "completion_date": "2024-09-08",
+      "instructor": "Prof. Wilson"
+    },
+    {
+      "course_code": "CS102",
+      "course_name": "Computer Science Fundamentals",
+      "credits": 3,
+      "grade": "B+",
+      "completion_date": "2024-10-28",
+      "instructor": "Prof. Johnson"
+    },
+    {
+      "course_code": "DB301",
+      "course_name": "Database Systems",
+      "credits": 3,
+      "grade": "A",
+      "completion_date": "2024-10-29",
+      "instructor": "Prof. Lee"
+    },
+    {
+      "course_code": "CS202",
+      "course_name": "Object-Oriented Programming",
+      "credits": 3,
+      "grade": "B+",
+      "completion_date": "2024-10-31",
+      "instructor": "Prof. Miller"
+    },
+    {
+      "course_code": "CS101",
+      "course_name": "Introduction to Programming",
+      "credits": 3,
+      "grade": "B",
+      "completion_date": "2024-11-12",
+      "instructor": "Prof. Smith"
+    }
+  ],
+  "proof_summary": {
+    "courses_included": 6,
+    "total_credits": 18,
+    "proof_size_kb": 3.61
+  }
+}
