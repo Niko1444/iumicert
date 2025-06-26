@@ -35,9 +35,9 @@ export default function AnimatedBackground({
         left: Math.random() * 100,
         top: Math.random() * 100,
         delay: Math.random() * 8,
-        duration: 4 + Math.random() * 6,
-        size: 2 + Math.random() * 4,
-        opacity: 0.2 + Math.random() * 0.6,
+        duration: 6 + Math.random() * 3,
+        size: 2 + Math.random() * 3,
+        opacity: 0.1 + Math.random() * 0.4,
         animationType:
           animationTypes[Math.floor(Math.random() * animationTypes.length)],
       }));
@@ -45,10 +45,10 @@ export default function AnimatedBackground({
 
     setParticles(generateParticles());
 
-    // Refresh particles periodically to keep them dynamic
+    // Reduced refresh frequency from every few seconds to every 30 seconds
     const refreshInterval = setInterval(() => {
       setParticles(generateParticles());
-    }, 15000); // Refresh every 15 seconds
+    }, 30000); // Refresh every 30 seconds
 
     return () => clearInterval(refreshInterval);
   }, []);

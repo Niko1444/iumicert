@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ViewTransitions } from "next-view-transitions";
 import { Inter, Space_Grotesk, Crimson_Text } from "next/font/google";
 
 import Header from "./components/Header";
@@ -27,7 +28,7 @@ const crimsonText = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "IU-MiCert - Blockchain Certificate Verification",
+  title: "IU-MiCert",
   description:
     "Verify educational certificates and view learning journeys through blockchain technology",
 };
@@ -38,20 +39,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`h-full ${inter.variable} ${spaceGrotesk.variable} ${crimsonText.variable}`}
-    >
-      <body className="antialiased h-full relative overflow-hidden">
-        {/* Full-screen content */}
-        <main className="absolute inset-0">{children}</main>
+    <ViewTransitions>
+      <html
+        lang="en"
+        className={`h-full ${inter.variable} ${spaceGrotesk.variable} ${crimsonText.variable}`}
+      >
+        <body className="antialiased h-full relative overflow-hidden">
+          {/* Full-screen content */}
+          <main className="absolute inset-0">{children}</main>
 
-        {/* Floating Header */}
-        <Header />
+          {/* Floating Header */}
+          <Header />
 
-        {/* Floating Footer */}
-        <Footer />
-      </body>
-    </html>
+          {/* Floating Footer */}
+          <Footer />
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }

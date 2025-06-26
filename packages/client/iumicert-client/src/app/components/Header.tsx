@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 
 export default function Header() {
   return (
@@ -17,12 +17,16 @@ export default function Header() {
                 width={80}
                 height={80}
                 className="object-contain transition-all duration-300 ease-in-out hover:scale-110 hover:rotate-3"
+                style={{ viewTransitionName: "logo" }}
               />
 
               <div className="flex gap-6 justify-center align-middle items-center">
                 <h1
                   className="text-4xl font-bold text-white font-crimson"
-                  style={{ fontFamily: "var(--font-crimson), serif" }}
+                  style={{
+                    fontFamily: "var(--font-crimson), serif",
+                    viewTransitionName: "main-title",
+                  }}
                 >
                   IU-MiCert
                 </h1>
@@ -33,27 +37,46 @@ export default function Header() {
           {/* Navigation links */}
 
           <nav className="hidden md:flex items-center space-x-6">
-            <a
+            <Link
               href="/verify"
               className="text-white/80 hover:text-white font-medium transition duration-300 text-sm font-inter"
-              style={{ fontFamily: "var(--font-inter), sans-serif" }}
+              style={{
+                fontFamily: "var(--font-inter), sans-serif",
+                viewTransitionName: "nav-verify",
+              }}
             >
               Verify
-            </a>
-            <a
+            </Link>
+            <Link
+              href="/revoke"
+              className="text-white/80 hover:text-white font-medium transition duration-300 text-sm font-inter"
+              style={{
+                fontFamily: "var(--font-inter), sans-serif",
+                viewTransitionName: "nav-revoke",
+              }}
+            >
+              Revoke
+            </Link>
+            <Link
               href="/about"
               className="text-white/80 hover:text-white font-medium transition duration-300 text-sm font-inter"
-              style={{ fontFamily: "var(--font-inter), sans-serif" }}
+              style={{
+                fontFamily: "var(--font-inter), sans-serif",
+                viewTransitionName: "nav-about",
+              }}
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link
               href="/help"
               className="text-white/80 hover:text-white font-medium transition duration-300 text-sm font-inter"
-              style={{ fontFamily: "var(--font-inter), sans-serif" }}
+              style={{
+                fontFamily: "var(--font-inter), sans-serif",
+                viewTransitionName: "nav-help",
+              }}
             >
               Help
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
