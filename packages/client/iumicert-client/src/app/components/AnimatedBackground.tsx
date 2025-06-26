@@ -55,7 +55,7 @@ export default function AnimatedBackground({
 
   return (
     <div
-      className={`absolute inset-0 bg-gradient-to-br ${gradient} ${className}`}
+      className={`absolute inset-0 bg-gradient-to-br ${gradient} ${className} noise`}
     >
       <div className="absolute inset-0 bg-black/20"></div>
       {/* Floating particles */}
@@ -85,6 +85,20 @@ export default function AnimatedBackground({
             ></div>
           ))}
       </div>
+
+      {/* Noise overlay using SVG */}
+      <style jsx>{`
+        .noise:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='500'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeBlend mode='multiply'/%3E%3C/filter%3E%3Crect width='500' height='500' filter='url(%23noise)' opacity='0.3'/%3E%3C/svg%3E");
+          mix-blend-mode: overlay;
+          pointer-events: none;
+          z-index: 1;
+        }
+      `}</style>
     </div>
   );
 }

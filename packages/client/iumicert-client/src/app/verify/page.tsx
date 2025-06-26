@@ -26,8 +26,8 @@ const AnimatedBackground = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900"></div>
+    <div className="absolute inset-0 overflow-hidden noise">
+      <div className="absolute inset-0 bg-gradient-to-br from-emerald-800 via-blue-900 to-slate-900"></div>
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Floating particles */}
@@ -45,15 +45,23 @@ const AnimatedBackground = () => {
       ))}
 
       {/* Gradient orbs */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
-      <div
-        className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse"
-        style={{ animationDelay: "1s" }}
-      ></div>
-      <div
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl animate-pulse"
-        style={{ animationDelay: "2s" }}
-      ></div>
+      <div className="absolute top-20 left-10 w-72 h-72 bg-emerald-500/15 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/15 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-violet-500/15 rounded-full blur-3xl"></div>
+
+      {/* Noise overlay using SVG */}
+      <style jsx>{`
+        .noise:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='500'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeBlend mode='multiply'/%3E%3C/filter%3E%3Crect width='500' height='500' filter='url(%23noise)' opacity='0.3'/%3E%3C/svg%3E");
+          mix-blend-mode: overlay;
+          pointer-events: none;
+          z-index: 1;
+        }
+      `}</style>
     </div>
   );
 };

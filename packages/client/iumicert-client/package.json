@@ -14,6 +14,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.522.0",
     "next": "15.3.4",
     "next-view-transitions": "^0.3.4",
