@@ -47,78 +47,87 @@ graph TD
     E --> F[Student Interface]
     E --> G[Employer Interface]
     E --> H[Institution Interface]
-Key components:
+```
 
-Verkle Tree Manager: Efficient storage/verification of micro-credentials
-Smart Contracts: Automated credential issuance with term-based cycles
-Commitment Engine: Minimizes on-chain storage while maintaining provenance
-Verification Protocols: Efficient proof validation at scale
-🚀 Key Features
-Feature	Benefit
-Verkle Tree Implementation	40-50% smaller proofs than Merkle trees
-Temporal Verification	Detects backdating and timeline manipulation
-Micro-Credential Tracking	Captures courses, projects, and skill achievements
-Compatibility Layer	Works alongside existing credential systems
-Intuitive Interfaces	For students, employers, and institutions
-📚 Thesis Chapters
-Introduction: Motivation, problem statement, and objectives
-Literature Review: Blockchain credentials, Verkle trees, academic provenance
-System Design: Architecture, data structures, and protocols
-Implementation: Smart contracts, Verkle tree manager, interfaces
-Evaluation: Security analysis, performance benchmarks, case studies
-Conclusion: Findings and future work
-🛠️ Technical Stack
-Blockchain: Ethereum (with potential for other EVM chains)
-Smart Contracts: Solidity
-Cryptography: Verkle tree implementation using established libraries
-Frontend: React.js (for demo interfaces)
-Backend: Node.js (for institutional integration)
-📂 Repository Structure
+### Key Components:
 
-Copy
-├── contracts/            # Smart contract source code
-├── verkle-tree/          # Verkle tree implementation
-├── frontend/             # Demo interfaces
-├── tests/                # Comprehensive test suite
-├── docs/                 # Thesis documentation
-└── integration/          # LMS/SIS integration modules
-🔬 Evaluation Metrics
-Security: Resistance to credential forgery attempts
-Performance: Proof generation/verification times vs Merkle trees
-Storage Efficiency: On-chain footprint comparison
-Usability: Stakeholder feedback on interfaces
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Verkle Tree Manager**: Efficient storage/verification of micro-credentials
+- **Smart Contracts**: Automated credential issuance with term-based cycles
+- **Commitment Engine**: Minimizes on-chain storage while maintaining provenance
+- **Verification Protocols**: Efficient proof validation at scale
 
-📝 Citation
+## 🚀 Key Features
+
+| Feature                    | Benefit                                            |
+| -------------------------- | -------------------------------------------------- |
+| Verkle Tree Implementation | 40-50% smaller proofs than Merkle trees            |
+| Temporal Verification      | Detects backdating and timeline manipulation       |
+| Micro-Credential Tracking  | Captures courses, projects, and skill achievements |
+| Compatibility Layer        | Works alongside existing credential systems        |
+| Intuitive Interfaces       | For students, employers, and institutions          |
+
+## 📚 Thesis Chapters
+
+1. **Introduction**: Motivation, problem statement, and objectives
+2. **Literature Review**: Blockchain credentials, Verkle trees, academic provenance
+3. **System Design**: Architecture, data structures, and protocols
+4. **Implementation**: Smart contracts, Verkle tree manager, interfaces
+5. **Evaluation**: Security analysis, performance benchmarks, case studies
+6. **Conclusion**: Findings and future work
+
+## 🛠️ Technical Stack
+
+- **Blockchain**: Ethereum (with potential for other EVM chains)
+- **Smart Contracts**: Solidity
+- **Cryptography**: Verkle tree implementation using established libraries
+- **Frontend**: Next.js with React (for demo interfaces)
+- **Backend**: Node.js (for institutional integration)
+- **Styling**: Tailwind CSS
+
+## 📂 Repository Structure
+
+```
+iumicert/
+├── contracts/                    # Smart contract source code
+├── packages/
+│   ├── client/                  # Client-side applications
+│   │   └── iumicert-client/     # Next.js web application for verification
+│   └── issuer/                  # Credential issuing system
+│       ├── data/                # Test data and academic records
+│       └── backup_scripts/      # Backup and maintenance scripts
+├── LICENSE                      # MIT License
+└── README.md                   # This file
+```
+
+## 🔬 Evaluation Metrics
+
+- **Security**: Resistance to credential forgery attempts
+- **Performance**: Proof generation/verification times vs Merkle trees
+- **Storage Efficiency**: On-chain footprint comparison
+- **Usability**: Stakeholder feedback on interfaces
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📝 Citation
+
 If you use this work in your research, please cite:
 
-bibtex
-
-Copy
-[Your citation format here]
-✉️ Contact
-For questions about this research, please contact:
-[Your Name]
-[Your Email]
-[Your Institution]
-
-markdown
-
-Copy
-
-This README includes:
-1. Professional badges for key technologies
-2. Clear visual hierarchy of information
-3. Architecture diagram (using mermaid syntax)
-4. Feature comparison table
-5. Structured repository overview
-6. Evaluation methodology
-7. Proper licensing and citation information
-
-You may want to:
-- Add actual performance metrics once available
-- Include installation/usage instructions if code is available
-- Add a contributors section if collaborative
-- Link to any published papers or presentations
+```bibtex
+@thesis{phat2026iumicert,
+  title={IU-MiCert: Blockchain-Based Verifiable Academic Micro-Credential Provenance System},
+  author={Le Tien Phat},
+  year={2026},
+  institution={International University - Vietnam National University HCM},
+  type={Bachelor's Thesis}
+}
 ```
+
+## ✉️ Contact
+
+For questions about this research, please contact:
+
+**Le Tien Phat**  
+📧 ltphat.developer@gmail.com  
+🏫 International University - Vietnam National University HCM
