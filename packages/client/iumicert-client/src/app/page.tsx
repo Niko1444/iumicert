@@ -56,7 +56,7 @@ const LandingPage = () => {
     {
       id: "hero",
       title: "IU-MiCert",
-      subtitle: "Blockchain Certificate Verification",
+      subtitle: "Blockchain Certificate Provenance Verification",
       description:
         "An advanced academic micro-credential provenance tracking system, leveraging Verkle trees for efficient and secure verification",
       cta: "Start Verification",
@@ -346,7 +346,7 @@ const LandingPage = () => {
                   </h1>
 
                   {/* Interactive Certificate Easter Egg */}
-                  <div className="absolute -top-6 -right-12 transform rotate-12 hover:rotate-[20deg] hover:scale-110 transition-all duration-500 cursor-pointer group">
+                  <div className="absolute -top-10 -right-12 transform rotate-12 hover:rotate-[20deg] hover:scale-110 transition-all duration-500 cursor-pointer group">
                     <Image
                       src="/horizontal-certificate.svg"
                       alt="Secret Certificate"
