@@ -23,9 +23,11 @@ export default function AnimatedBackground({
   className = "",
 }: AnimatedBackgroundProps) {
   const [particles, setParticles] = useState<Particle[]>([]);
+  const [isClient, setIsClient] = useState(false);
 
   // Initialize particles on client side only
   useEffect(() => {
+    setIsClient(true);
     const generateParticles = () => {
       const animationTypes: ("float" | "drift")[] = ["float", "drift"];
       return [...Array(30)].map((_, i) => ({
@@ -58,29 +60,30 @@ export default function AnimatedBackground({
       <div className="absolute inset-0 bg-black/20"></div>
       {/* Floating particles */}
       <div className="absolute inset-0">
-        {particles.map((particle) => (
-          <div
-            key={particle.id}
-            className={`absolute rounded-full animate-pulse ${
-              particle.animationType === "float"
-                ? "bg-white/30"
-                : "bg-blue-300/40"
-            }`}
-            style={{
-              left: `${particle.left}%`,
-              top: `${particle.top}%`,
-              width: `${particle.size}px`,
-              height: `${particle.size}px`,
-              opacity: particle.opacity,
-              animation: `${particle.animationType} ${
-                particle.duration
-              }s ease-in-out infinite, glow-pulse ${
-                particle.duration * 0.8
-              }s ease-in-out infinite`,
-              animationDelay: `${particle.delay}s`,
-            }}
-          ></div>
-        ))}
+        {isClient &&
+          particles.map((particle) => (
+            <div
+              key={particle.id}
+              className={`absolute rounded-full animate-pulse ${
+                particle.animationType === "float"
+                  ? "bg-white/30"
+                  : "bg-blue-300/40"
+              }`}
+              style={{
+                left: `${particle.left}%`,
+                top: `${particle.top}%`,
+                width: `${particle.size}px`,
+                height: `${particle.size}px`,
+                opacity: particle.opacity,
+                animation: `${particle.animationType} ${
+                  particle.duration
+                }s ease-in-out infinite, glow-pulse ${
+                  particle.duration * 0.8
+                }s ease-in-out infinite`,
+                animationDelay: `${particle.delay}s`,
+              }}
+            ></div>
+          ))}
       </div>
     </div>
   );

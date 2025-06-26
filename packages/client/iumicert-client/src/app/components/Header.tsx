@@ -16,7 +16,7 @@ export default function Header() {
                 alt="IU-MiCert Logo"
                 width={80}
                 height={80}
-                className="object-contain"
+                className="object-contain transition-all duration-300 ease-in-out hover:scale-110 hover:rotate-3"
               />
 
               <div className="flex gap-6 justify-center align-middle items-center">
