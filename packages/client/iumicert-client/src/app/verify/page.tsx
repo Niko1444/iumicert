@@ -722,24 +722,6 @@ export default function VerifyCredential() {
                         selective disclosure capabilities.
                       </p>
                     </div>
-                    <div className="bg-white/10 rounded-xl p-4 border border-white/20">
-                      <h5 className="text-white font-medium mb-2">
-                        Verkle Tree Verification
-                      </h5>
-                      <p className="text-sm">
-                        Advanced cryptographic proofs using Verkle Trees for
-                        efficient and private verification.
-                      </p>
-                    </div>
-                    <div className="bg-white/10 rounded-xl p-4 border border-white/20">
-                      <h5 className="text-white font-medium mb-2">
-                        Blockchain Anchoring
-                      </h5>
-                      <p className="text-sm">
-                        All proofs are anchored on Sepolia testnet with
-                        tamper-evident commitments.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>

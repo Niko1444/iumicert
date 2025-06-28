@@ -96,7 +96,7 @@ export default function RevokeCredential() {
         <div className="flex-1 px-8 pb-36 pt-50 min-h-0">
           <div className="h-full lg:max-w-[80%] mx-auto flex items-center justify-center">
             {/* Coming Soon Section */}
-            <div className="max-w-2xl mx-auto bg-white/10 ring-1 ring-white/30 backdrop-blur-sm rounded-3xl p-12 text-center">
+            <div className="max-w-2xl mx-auto bg-white/10 ring-1 ring-white/30 backdrop-blur-sm rounded-3xl p-12 pb-4 text-center">
               {/* Icon */}
               <div className="text-8xl mb-6">🚧</div>
 
@@ -125,17 +125,8 @@ export default function RevokeCredential() {
                 </div>
                 <p className="text-yellow-200">
                   The credential revocation functionality is currently under
-                  development. This feature will allow authorized personnel to
-                  revoke previously issued academic credentials with
-                  cryptographic proof of revocation.
-                </p>
-              </div>
-
-              {/* Contact Info */}
-              <div className="mt-8 bg-white/5 rounded-xl p-4 border border-white/10">
-                <p className="text-blue-300 text-sm">
-                  For questions about credential revocation, please contact your
-                  institutional administrator.
+                  development. For questions about credential revocation, please
+                  contact your institutional administrator.
                 </p>
               </div>
             </div>

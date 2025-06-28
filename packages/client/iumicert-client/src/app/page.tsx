@@ -197,11 +197,8 @@ const LandingPage = () => {
 
   // GSAP Hero Animation
   useEffect(() => {
-    if (currentSlide === 0 && animationPhase === "idle") {
-      // Reset and animate hero elements
-      const tl = gsap.timeline();
-
-      // Set initial states to prevent layout shift
+    // Always set initial states first to prevent flash
+    if (currentSlide === 0) {
       gsap.set(
         [
           heroTitleContainerRef.current,
@@ -214,6 +211,11 @@ const LandingPage = () => {
           y: 50,
         }
       );
+    }
+
+    if (currentSlide === 0 && animationPhase === "idle") {
+      // Reset and animate hero elements
+      const tl = gsap.timeline();
 
       // Animate in sequence - simplified for performance
       tl.to(heroTitleContainerRef.current, {
@@ -417,7 +419,7 @@ const LandingPage = () => {
 
             <div ref={heroButtonRef} className="flex justify-center">
               <Link href="/verify" passHref>
-                <button className="group relative bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-10 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:scale-110 hover:shadow-2xl flex items-center gap-3 font-inter overflow-hidden">
+                <button className="hover:cursor-pointer group relative bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-10 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:scale-110 hover:shadow-2xl flex items-center gap-3 font-inter overflow-hidden">
                   <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
                   <span className="relative z-10">{slide.cta}</span>
                   <ArrowRight className="w-6 h-6 relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
@@ -485,30 +487,36 @@ const LandingPage = () => {
 
       case "problem":
         return (
-          <div className="text-center space-y-8">
-            <div className="space-y-4">
-              <h2 className="text-5xl font-bold text-white font-space-grotesk">
+          <div className="text-center space-y-6">
+            <div className="space-y-2">
+              <h2 className="text-4xl font-bold text-white font-space-grotesk">
                 {slide.title}
               </h2>
-              <p className="text-xl text-red-200 font-medium font-inter">
+              <p className="text-lg text-red-200 font-medium font-inter">
                 {slide.subtitle}
               </p>
             </div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
+            <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
               {slide.description}
             </p>
             <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
               {slide.features?.map((feature, index) => (
                 <div
                   key={index}
-                  className="bg-red-900/30 border border-red-500/30 rounded-lg p-4 backdrop-blur-sm"
+                  className="bg-red-900/30 border border-red-500/30 rounded-lg p-4 backdrop-blur-sm hover:bg-red-800/40 transition-all duration-300"
                 >
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-red-400 rounded-full animate-pulse"></div>
-                    <span className="text-gray-200 font-medium font-inter">
-                      {feature}
-                    </span>
-                  </div>
+                  <div className="w-3 h-3 bg-red-400 rounded-full animate-pulse mx-auto mb-2"></div>
+                  <h3 className="text-base font-semibold text-white mb-1 font-space-grotesk">
+                    {feature
+                      .split(" ")
+                      .map(
+                        (word) => word.charAt(0).toUpperCase() + word.slice(1)
+                      )
+                      .join(" ")}
+                  </h3>
+                  <p className="text-gray-300 text-xs font-inter">
+                    Current limitation in credential systems
+                  </p>
                 </div>
               ))}
             </div>
@@ -517,16 +525,16 @@ const LandingPage = () => {
 
       case "solution":
         return (
-          <div className="text-center space-y-8">
-            <div className="space-y-4">
-              <h2 className="text-5xl font-bold text-white font-space-grotesk">
+          <div className="text-center space-y-6">
+            <div className="space-y-2">
+              <h2 className="text-4xl font-bold text-white font-space-grotesk">
                 {slide.title}
               </h2>
-              <p className="text-xl text-green-200 font-medium font-inter">
+              <p className="text-lg text-green-200 font-medium font-inter">
                 {slide.subtitle}
               </p>
             </div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
+            <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
               {slide.description}
             </p>
             <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
@@ -535,12 +543,18 @@ const LandingPage = () => {
                   key={index}
                   className="bg-green-900/30 border border-green-500/30 rounded-lg p-4 backdrop-blur-sm hover:bg-green-800/40 transition-all duration-300"
                 >
-                  <div className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-400" />
-                    <span className="text-gray-200 font-medium font-inter">
-                      {feature}
-                    </span>
-                  </div>
+                  <CheckCircle className="w-6 h-6 text-green-400 mx-auto mb-2" />
+                  <h3 className="text-base font-semibold text-white mb-1 font-space-grotesk">
+                    {feature
+                      .split(" ")
+                      .map(
+                        (word) => word.charAt(0).toUpperCase() + word.slice(1)
+                      )
+                      .join(" ")}
+                  </h3>
+                  <p className="text-gray-300 text-xs font-inter">
+                    Advanced solution capability
+                  </p>
                 </div>
               ))}
             </div>
@@ -549,29 +563,29 @@ const LandingPage = () => {
 
       case "features":
         return (
-          <div className="text-center space-y-8">
-            <div className="space-y-4">
-              <h2 className="text-5xl font-bold text-white font-space-grotesk">
+          <div className="text-center space-y-6">
+            <div className="space-y-2">
+              <h2 className="text-4xl font-bold text-white font-space-grotesk">
                 {slide.title}
               </h2>
-              <p className="text-xl text-purple-200 font-medium font-inter">
+              <p className="text-lg text-purple-200 font-medium font-inter">
                 {slide.subtitle}
               </p>
             </div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
+            <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed font-inter">
               {slide.description}
             </p>
-            <div className="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
               {slide.gridFeatures?.map((feature, index) => (
                 <div
                   key={index}
-                  className="bg-purple-900/30 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:bg-purple-800/40 transition-all duration-300 hover:scale-105"
+                  className="bg-purple-900/30 border border-purple-500/30 rounded-lg p-4 backdrop-blur-sm hover:bg-purple-800/40 transition-all duration-300 hover:scale-105"
                 >
-                  <feature.icon className="w-8 h-8 text-purple-400 mx-auto mb-3" />
-                  <h3 className="text-lg font-semibold text-white mb-2 font-space-grotesk">
+                  <feature.icon className="w-6 h-6 text-purple-400 mx-auto mb-2" />
+                  <h3 className="text-base font-semibold text-white mb-1 font-space-grotesk">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-300 text-sm font-inter">
+                  <p className="text-gray-300 text-xs font-inter">
                     {feature.desc}
                   </p>
                 </div>
